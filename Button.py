@@ -1,12 +1,11 @@
 class Button:
 
-  def __init__(self, surface, dColour, lColour, rect, width=0, text=''):
+  def __init__(self, surface, dColour, lColour, rect, text=''):
     self.surface = surface
     self.Rect = rect
     self.rect = pygame.Rect(rect)
     self.dColour = dColour
     self.lColour = lColour
-    self.width = width
     self.text = text
 
   def checkClick(self, events):
